@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+heigth -> Altura
+width -> Largura
+*/
+
+div{
+    display: inline-block;
+    background-color: #d3d3d3;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: #ffff00;
+}
+
+div > p{/*Div tem o filho paragrafo*/
+    display: none;
+} 
+
+div:hover > p{
+    display: block;
+    color: #ffffff;
+    background-color: #ff0000;
+}
