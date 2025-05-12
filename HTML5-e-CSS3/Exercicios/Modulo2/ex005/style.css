@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body{
+    font-family: "Fredericka the Great", serif;
+    font-size: 16px;
+    color: black;
+}
+
+p{
+    font-family: "Playwrite AU SA", cursive;
+}
