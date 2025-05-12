@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+    /*Existe diversas formas de informar as cores pelo css
+    Formas:
+    Nome da cor: Blue
+    código hexadecimal (0-F, mas lembrando que são para RGB ai fica uma sequencia de 6 números #001122 onde o 00 é para o vermelho, 11 para o verde e 22 o azul): #0000FF
+    código rgb com decimal (0-255, seguinda a ordem de três números separado por virgula): rgb(0,0,255) - vermelho:0, verde:0, azul: 255*/
+body{
+    background-color: blue;
+}
+h1{
+    background-color: #ff0000;
+}
+p{
+    background-color: rgb(0,255,0);
+}
