@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color:#550101;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #ffff00;
+}
+
+a::before{
+    content: '==>';
+}
+
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: #bdbdbdfe;
+}
+
+.especial a::after{
+    content: '<==';
+}
