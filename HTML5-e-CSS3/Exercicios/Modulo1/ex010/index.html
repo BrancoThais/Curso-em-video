@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferente ou simplesmente aumente e diminua o tamanha do navegador</p>
+    <picture>
+        <!--Ele tem que seguir a ordem da menor para a maior-->
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png"> <!--Se a tela for menor que 750 ele mostra a imagem P-->
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png"> <!--Se a tela for menor que 1050 ele mostra a imagem M -->
+        <img src="img/foto-g.png" alt="foto flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="midia/november.mp3"controls autoplay preload="metadata"></audio>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="video/carrinhoEV3.mp4" poster="img/ev3.jpeg" width="560" controls autoplay loop></video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rx8EhkXk9zs?si=v8sZyIl6Udafw1r2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
