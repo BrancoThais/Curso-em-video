@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1{
+    background-color: #add8e6;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #ffa07a;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin: 20px auto 40px; /*Deixa no centro da tela horizontalmente*/
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: #ffc0cb;
+    /*as trê linhas acima pode ser resumindo pela linha abaixo
+    outline: 5px solid #ffc0cb;*/
+}
+
+a{
+    border-width: 2px;
+    border-style: dashed; /*pontilhado*/
+    border-color: #ff0000;
+    padding: 10px 10px 35px 35px;/*top right bottom left*/
+}
+   
