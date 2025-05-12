@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    /*Como alguns dispositivos tem fontes de letra limitadas utilizamos a familia, pois caso abrir o site em um tablet por exemplo e nesse dispositivo não ter a finte courier new ele procura a próxima */
+    font-family: 'Courier New', Courier, monospace;
+
+    /*Medidas absolutas:
+    cm, mm, in, px, pt, pc
+
+    Medidas relativas:
+    em, ex, rem, vw, vh, %
+
+    As medidas recomendadas são
+    px e em
+
+    16px geralmente é 1 em
+    */
+    font-size: 16px;
+}
+
+/*definindo o estilos para os dois conjuntos*/
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
