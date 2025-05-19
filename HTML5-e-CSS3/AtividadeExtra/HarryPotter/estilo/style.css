@@ -4,11 +4,14 @@ Sonserina:  #1a472a, #2a623d,#5d5d5d,#aaaaaa
 Lufa-lufa: #ecb939,#f0c75e,#726255,#372e29
 Corvinal: #081026, #141C37, #383838, #59401B
 */
- @charset "UTF-8";
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 *{
    margin: 0px;
    padding: 0px;
+   font-family: "Cinzel", serif;
 }
  body{
    background-color: black;
@@ -19,19 +22,49 @@ Corvinal: #081026, #141C37, #383838, #59401B
    background-image: linear-gradient(to bottom,#800080, #4d004d);
    color: #ffd700;
    text-align: center;
+   padding: 10px 10px 0px 10px;
 }
 
-header.brasaoTitulo{
-   margin-top: 10px;
-   padding: 10px;
+header > h1{
+   display: inline-block;
+   font-size: 5em;
+   text-shadow: -3px -5px 2px #000000;
+}
+
+header  a{
+   color: white;
+   text-decoration: none;
+   margin-left: 10px;
+   font-weight: bolder;
+   margin-bottom: 0px;
 }
 
 main{
    background-image: url(../img/fundo.jpg);
-   margin: 10px auto;
+   margin: auto;
    max-width: 800px;
    min-width: 300px;
-   padding: 10px;
-   border-radius: 10px;
+   padding: 10px 20px;
+   border-radius: 0px 0px 10px 10px;
 }
+
+main > h1{
+   font-size: 2em;
+   color: #330808;
+}
+
+main  p{
+   text-indent: 30px;
+   text-align: justify;
+   line-height: 1.5em;
+   font-family: "Cormorant Garamond", serif;
+   font-weight: bolder;
+   font-size: 1.2em;
+}
+ article{
+   font-family: "Cormorant Garamond", serif;
+   text-indent: 50px;
+   font-size: 1.2em;
+ }
+
 
