@@ -1,0 +1,26 @@
+/*
+Grifinoria: #740001,#ae0001,#eeba30,#d3a625
+Sonserina:  #1a472a, #2a623d,#5d5d5d,#aaaaaa
+Lufa-lufa: #ecb939,#f0c75e,#726255,#372e29
+Corvinal: #081026, #141C37, #383838, #59401B
+*/
+ @charset "UTF-8";
+
+ body{
+    background-color: black;
+ }
+
+ div{
+    background-image: url(../img/fundo.jpg);
+    width: 2000px;
+    height: 200px;
+ }
+
+ header{
+    background-image: linear-gradient(to bottom, #740001, #f0c75e);
+ }
+
+ .brasaoTitulo{
+    width: 50px;
+ }
+
