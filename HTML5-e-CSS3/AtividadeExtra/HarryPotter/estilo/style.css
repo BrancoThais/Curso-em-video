@@ -6,21 +6,32 @@ Corvinal: #081026, #141C37, #383838, #59401B
 */
  @charset "UTF-8";
 
+*{
+   margin: 0px;
+   padding: 0px;
+}
  body{
-    background-color: black;
+   background-color: black;
+   margin: 0px;
  }
-
- div{
-    background-image: url(../img/fundo.jpg);
-    width: 2000px;
-    height: 200px;
- }
-
+ 
  header{
-   background-image: linear-gradient(to bottom, #740001, #f0c75e);
+   background-image: linear-gradient(to bottom,#800080, #4d004d);
+   color: #ffd700;
+   text-align: center;
 }
 
-.brasaoTitulo{
-    width: 50px;
- }
+header.brasaoTitulo{
+   margin-top: 10px;
+   padding: 10px;
+}
+
+main{
+   background-image: url(../img/fundo.jpg);
+   margin: 10px auto;
+   max-width: 800px;
+   min-width: 300px;
+   padding: 10px;
+   border-radius: 10px;
+}
 
