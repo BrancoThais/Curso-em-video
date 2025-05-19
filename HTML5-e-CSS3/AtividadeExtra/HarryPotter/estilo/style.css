@@ -17,10 +17,10 @@ Corvinal: #081026, #141C37, #383838, #59401B
  }
 
  header{
-    background-image: linear-gradient(to bottom, #740001, #f0c75e);
- }
+   background-image: linear-gradient(to bottom, #740001, #f0c75e);
+}
 
- .brasaoTitulo{
+.brasaoTitulo{
     width: 50px;
  }
 
